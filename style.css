@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: sans-serif;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background-color: #a5d8ff;
+  width: 35%;
+  padding: 25px;
+  border-radius: 10px;
+}
+
+.location {
+  font-size: 13px;
+}
+
+.description,
+.data,
+.refresh-container {
+  margin-top: 15px;
+}
+
+.btn {
+  padding: 3px;
+  cursor: pointer;
+}
+
+.updated {
+  display: inline-block;
+  font-size: 13px;
+}
